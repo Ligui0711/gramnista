@@ -1987,68 +1987,56 @@ body {
 }
 /* スクロールアニメーション */
 .element-top {
-  opacity: 0;
   visibility: hidden;
   transform: translateY(-100px);
   transition: opacity 1s, visibility 1s, transform 1s;
 }
 .animation-top {
-  opacity: 1;
   visibility: visible;
   transform: translateX(0);
 }
 .element-right {
-  opacity: 0;
   visibility: hidden;
   transform: translateX(100px);
   transition: opacity 1s, visibility 1s, transform 1s;
 }
 .animation-right {
-  opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 .element-bottom {
-  opacity: 0;
   visibility: hidden;
   transform: translateY(100px);
   transition: opacity 1s, visibility 1s, transform 1s;
 }
 .animation-bottom {
-  opacity: 1;
   visibility: visible;
   transform: translateX(0);
 }
 .element-left {
-  opacity: 0;
   visibility: hidden;
   transform: translateX(-100px);
   transition: opacity 1s, visibility 1s, transform 1s;
 }
 .animation-left {
-  opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 .element-right-bottom {
-  opacity: 0;
   visibility: hidden;
   transform: translate(100px, 100px);
   transition: opacity 1s, visibility 1s, transform 1s;
 }
 .animation-right-bottom {
-  opacity: 1;
   visibility: visible;
   transform: translate(0);
 }
 .element-left-bottom {
-  opacity: 0;
   visibility: hidden;
   transform: translate(-100px, 100px);
   transition: opacity 1s, visibility 1s, transform 1s;
 }
 .animation-left-bottom {
-  opacity: 1;
   visibility: visible;
   transform: translate(0);
 }
